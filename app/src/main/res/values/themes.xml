@@ -1,0 +1,18 @@
+<resources>
+    <style name="Theme.MessMate" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">@color/messmate_saffron</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/messmate_cream</item>
+        <item name="android:navigationBarColor">@color/messmate_cream</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@color/messmate_cream</item>
+    </style>
+
+    <style name="Theme.MessMate.Splash" parent="Theme.MessMate">
+        <item name="windowSplashScreenBackground">@color/messmate_cream</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_messmate_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.MessMate</item>
+    </style>
+</resources>

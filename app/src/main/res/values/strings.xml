@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MessMate</string>
+    <string name="app_tagline">"Know what's on the menu."</string>
+    <string name="splash_title">MessMate</string>
+    <string name="notification_channel_name">MessMate updates</string>
+    <string name="notification_channel_description">Meal and dining hall updates from MessMate.</string>
+</resources>
